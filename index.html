@@ -25,26 +25,38 @@
                     <center>
                         <table class="board">
                             <tr class="board-rows">
-                                <td id="seat-2" class="seating"></td>
-                                <td id="seat-3" class="seating"></td>
-                                <td id="seat-6" class="seating"></td>
-                                <td id="seat-7" class="seating"></td>
-                                <td id="seat-10" class="seating"></td>
+                                <td id="seat-2" class="seating premium"></td>
+                                <td id="seat-3" class="seating premium"></td>
+                                <td id="seat-6" class="seating economic"></td>
+                                <td id="seat-7" class="seating economic"></td>
+                                <td id="seat-10" class="seating economic"></td>
                             </tr>
                             <tr class="board-rows">
-                                <td id="seat-1" class="seating"></td>
-                                <td id="seat-4" class="seating"></td>
-                                <td id="seat-5" class="seating"></td>
-                                <td id="seat-8" class="seating"></td>
-                                <td id="seat-9" class="seating"></td>
+                                <td id="seat-1" class="seating premium"></td>
+                                <td id="seat-4" class="seating premium"></td>
+                                <td id="seat-5" class="seating economic"></td>
+                                <td id="seat-8" class="seating economic"></td>
+                                <td id="seat-9" class="seating economic"></td>
                             </tr>
                         </table>
                     </center>
                 </div>
                 <!-- Boton reservar asiento -->
                 <div>
-                    <button id="reservar" class="btn" type="reset">RESERVAR ASIENTO</button>
+                    <button id="reservar" class="btn" type="button">RESERVAR ASIENTO</button>
                 </div>
+            </div>
+            <div class="display-none" id="window-form">
+               <h2>¿En qué zona prefieres reservar tu asiento?</h2>
+               <hr>
+               <p>1. Primera clase.</p>
+               <p>2. Económica.</p>
+               <br>
+               <form action="">
+                    <label for="">Ingrese el numero porfavor</label>
+                    <input type="text" placeholder="ingrese el numero">
+                    <button id="enviar" class="btn" type="button">Enviar</button>
+               </form> 
             </div>
         </section>
         <footer>

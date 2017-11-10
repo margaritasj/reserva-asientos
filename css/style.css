@@ -83,7 +83,16 @@ center {
     color: black;
     border: 2px solid orange;
     background-color: #fbd692;
+}
 
+.activo-premium {
+
+    background-color: orange;
+}
+
+.activo-economic {
+
+    background-color: gray;
 }
 
 /*estilos para los botones*/
@@ -118,4 +127,33 @@ footer p {
     padding: 6px;
     line-height: center;
     text-align: center;
+}
+
+/*Para ocultar el div que contiene la formulario de la reservacion*/
+.display-none {
+    display: none;
+}
+#window-form {
+    
+    width: 550px;
+    position: absolute;
+    background-color: #24d2b0;
+    padding: 15px;
+    font-size: 12px;
+    color: black;
+    border-radius:10px; 
+}
+#window-form hr {
+    text-align: center;
+    margin: 7px;
+    border-color:  white;
+    border-bottom-style: dotted;
+}
+#window-form p {
+    text-align: left;
+    margin: 10px;
+    padding-left: 5px;
+}
+#window-form btn {
+    background-color: darkslategray;
 }
